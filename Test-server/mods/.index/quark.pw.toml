@@ -1,0 +1,21 @@
+filename = 'Quark-4.1-480.jar'
+name = 'Quark'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Quark-4.1-480.jar'
+
+[download]
+hash = 'a17e252b74b28045602478cb3ada804239c15c2c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8146177
+project-id = 243121
+
+[[x-prismlauncher-dependencies]]
+addonId = '968868'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+filename = 'create_train_parts-0.4.0-1.21.1-6.0.9-216.jar'
+name = 'Create Train Parts'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_train_parts-0.4.0-1.21.1-6.0.9-216.jar'
+
+[download]
+hash = '545cffbaf747fe9da8429df19560a3dde408d572'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8054109
+project-id = 1294279

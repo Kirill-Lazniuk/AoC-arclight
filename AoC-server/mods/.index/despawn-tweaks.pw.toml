@@ -1,0 +1,21 @@
+filename = 'despawntweaks-neoforge-1.0.0-1.21.1.jar'
+name = 'Despawn Tweaks'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DespawnTweaks Neoforge 1.0.0 for 1.21.1'
+
+[download]
+hash = 'e85b18cbb8dffd7e6920002c572f52c1de87c794'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6145369
+project-id = 1191080
+
+[[x-prismlauncher-dependencies]]
+addonId = '1104882'
+type = 'REQUIRED'

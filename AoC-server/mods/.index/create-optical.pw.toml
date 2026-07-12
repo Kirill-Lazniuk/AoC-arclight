@@ -1,0 +1,21 @@
+filename = 'create_optical-0.4.2.jar'
+name = 'Create Optical'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create Optical 0.4.2 - 1.21.1'
+
+[download]
+hash = 'd39b4d193b0c326159e9e3bfa7d5113bc19384a8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8036048
+project-id = 1007714
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

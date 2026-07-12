@@ -1,0 +1,25 @@
+filename = 'powergrid-mc1.21.1-0.5.5.1.jar'
+name = 'Create: Power Grid'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Power Grid - 0.5.5.1 - NeoForge'
+
+[download]
+hash = '06b0500d7101c5846e9e2c5bb4b53646a50ef133'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7999916
+project-id = 1321420
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

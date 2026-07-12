@@ -1,0 +1,21 @@
+filename = 'trading_floor-3.0.16.jar'
+name = 'Create: Trading Floor'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Trading Floor 3.0.16 Neoforge 1.21.1'
+
+[download]
+hash = '7be6d8b24f3120fa6a2520c32a2e6c8c4254322c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7625579
+project-id = 1102591
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

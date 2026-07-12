@@ -1,0 +1,21 @@
+filename = 'create_blaze_burner_fuels-1.0.2-neoforge-1.21.1.jar'
+name = 'Create: Blaze Burner Fuels'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_blaze_burner_fuels-1.0.2-neoforge-1.21.1.jar'
+
+[download]
+hash = '9f055fedf963a6c352c655cb6d58b720b08256b2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7444038
+project-id = 1320903
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

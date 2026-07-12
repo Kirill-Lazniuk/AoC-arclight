@@ -1,0 +1,19 @@
+{
+	id: "8524dff3-36a4-3e83-aec2-3675e5541fdd"
+	type: "player"
+	player_name: "MiVzY"
+	ranks: {
+		8524dff3-36a4-3e83-aec2-3675e5541fdd: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "MiVzY"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF7D59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

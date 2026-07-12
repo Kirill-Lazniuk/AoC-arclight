@@ -1,0 +1,21 @@
+filename = 'mechanical_botany-1.1.3+1.21.1-neoforged.jar'
+name = 'Create: Mechanical Botany'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Mechanical Botany 1.1.3 for mc1.21.1'
+
+[download]
+hash = '62201ef027c7bfaffa8ea14e3d51a5ab5b88f345'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8106211
+project-id = 1276978
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

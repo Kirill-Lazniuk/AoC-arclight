@@ -1,0 +1,4 @@
+admin:
+  tagprefix: "&4&lAdmin &r"
+_DEFAULT_:
+  tagprefix: "&7" # This will be displayed on everyone except admin

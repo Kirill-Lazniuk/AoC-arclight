@@ -1,0 +1,21 @@
+filename = 'create_fantasizing-1.21.1-1.1.3.jar'
+name = 'Create: Fantasizing Again'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CreateFantasizing-1.1.3-neoforge-1.21.1.jar'
+
+[download]
+hash = '2021542de297aa370d8e444fb7cc3cd693847f6c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8036095
+project-id = 1279337
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

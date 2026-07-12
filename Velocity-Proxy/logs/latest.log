@@ -1,0 +1,56 @@
+[13:51:40] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-1b64a70a-b601)...
+[13:51:40] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[13:51:40] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[13:51:40] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[13:51:40] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[13:51:40] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins\DecentHolograms-2.9.10.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file DecentHolograms-2.9.10.jar appears to be a Paper, Bukkit or BungeeCord plugin. Velocity does not support plugins from these platforms.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:158)
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62)
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:101)
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:436)
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:307)
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
+[13:51:40] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Unable to load plugin plugins\ServerMonitor_2.0-1.21.jar
+com.velocitypowered.api.plugin.InvalidPluginException: The plugin file ServerMonitor_2.0-1.21.jar appears to be a Paper, Bukkit or BungeeCord plugin. Velocity does not support plugins from these platforms.
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.getSerializedPluginInfo(JavaPluginLoader.java:158)
+	at com.velocitypowered.proxy.plugin.loader.java.JavaPluginLoader.loadCandidate(JavaPluginLoader.java:62)
+	at com.velocitypowered.proxy.plugin.VelocityPluginManager.loadPlugins(VelocityPluginManager.java:101)
+	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:436)
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:307)
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
+[13:51:40] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.55 by Luck
+[13:51:40] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin protocolize 2.4.3:1408 by Exceptionflug, proferabg
+[13:51:40] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin tab 5.0.7 by NEZNAMY
+[13:51:40] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin velocitygui 1.2.6 by james095000
+[13:51:40] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 5 plugins
+[13:51:41] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
+[13:51:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
+[13:51:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.55
+[13:51:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity
+[13:51:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[13:51:41] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
+[13:51:42] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
+[13:51:42] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
+[13:51:42] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 1222ms)
+[13:51:42] [LuckPerms - Task Executor #0/INFO] [protocolize]: ======= PROTOCOLIZE =======
+[13:51:42] [LuckPerms - Task Executor #0/INFO] [protocolize]: Version 2.4.3:1408 by Exceptionflug, proferabg
+[13:51:42] [LuckPerms - Task Executor #0/INFO] [protocolize]: Swap channel initializers (ignore the following two warnings)...
+[13:51:42] [LuckPerms - Task Executor #0/INFO] [Protocolize]: Respecting the previous registered BackendChannelInitializer: com.velocitypowered.proxy.network.BackendChannelInitializer
+[13:51:42] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by dev.simplix.protocolize.velocity.ProtocolizePlugin.swapChannelInitializers(ProtocolizePlugin.java:130)
+[13:51:42] [LuckPerms - Task Executor #0/INFO] [Protocolize]: Respecting the previous registered ServerChannelInitializer: com.velocitypowered.proxy.network.ServerChannelInitializer
+[13:51:42] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by dev.simplix.protocolize.velocity.ProtocolizePlugin.swapChannelInitializers(ProtocolizePlugin.java:132)
+[13:51:42] [LuckPerms - Task Executor #0/INFO] [protocolize]: Swapped channel initializers
+[13:51:42] [LuckPerms - Task Executor #0/WARN] [Protocolize]: Don't know what EntityType: CREAKING_TRANSIENT was at protocol 768
+[13:51:43] [LuckPerms - Task Executor #0/INFO] [Protocolize]: Enabled module dev.simplix.protocolize.data.DataModule
+[13:51:43] [LuckPerms - Task Executor #0/INFO] [TAB]: As of version 5.0.0, TAB no longer uses TAB-Bridge to encode scoreboard packets on Velocity. Instead, it uses a custom made plugin that adds scoreboard API directly to Velocity, which offers better performance and reliability. You can download the plugin from https://github.com/NEZNAMY/VelocityScoreboardAPI/releases/. Until then, the following features will not work: scoreboard-teams, belowname-objective, playerlist-objective, scoreboard
+[13:51:43] [LuckPerms - Task Executor #0/INFO] [TAB]: Enabled in 150ms
+[13:51:43] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[13:51:43] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3,84s)!
+[14:13:42] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Clarerta (/127.186.169.219:61133) has connected
+[14:13:43] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clarerta -> lobby has connected
+[14:23:04] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clarerta -> test has connected
+[14:23:04] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clarerta -> lobby has disconnected
+[14:51:14] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clarerta -> main has connected
+[14:51:15] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Clarerta -> test has disconnected
+[15:37:36] [Netty NIO Worker #1/WARN] [Protocolize]: Don't know what item 1809 at protocol 767 should be.

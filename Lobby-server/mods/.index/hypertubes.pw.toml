@@ -1,0 +1,21 @@
+filename = 'create_hypertube-0.4.0-COMPAT-NEOFORGE.jar'
+name = 'Create: Hypertubes'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Hypertube 0.4.0-COMPAT NEOFORGE '
+
+[download]
+hash = 'adbd8f617928af37b286cadf7b45707e2498f25a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7948263
+project-id = 1281336
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

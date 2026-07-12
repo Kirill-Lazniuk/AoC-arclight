@@ -1,0 +1,21 @@
+filename = 'create_deep_dark-3.0.2-neoforge-1.21.1.jar'
+name = 'Create: Deep Dark'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_deep_dark-3.0.2-neoforge-1.21.1.jar'
+
+[download]
+hash = '41a8c7f2f096555355214c55031ade1a84ef4058'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7624342
+project-id = 1020173
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

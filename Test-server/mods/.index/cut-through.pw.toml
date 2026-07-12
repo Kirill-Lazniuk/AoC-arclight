@@ -1,0 +1,25 @@
+filename = 'CutThrough-v21.1.0-1.21.1-NeoForge.jar'
+name = 'Cut Through'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NEOFORGE] [1.21.1] CutThrough-v21.1.0'
+
+[download]
+hash = '550f272c140566f0961c1bb3fdfb1a6272be30dd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5731913
+project-id = 969423
+
+[[x-prismlauncher-dependencies]]
+addonId = '495476'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '544048'
+type = 'OPTIONAL'

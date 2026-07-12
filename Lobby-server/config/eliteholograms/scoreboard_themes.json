@@ -1,0 +1,51 @@
+{
+  "_comment": [
+    "EliteHolograms scoreboard themes. Each theme styles a scoreboard hologram.",
+    "Use a theme with: /eh createscoreboard <id> <objective> [topCount] [interval] [theme]",
+    "Colours: legacy '&' codes (e.g. &a, &6, &l) OR MiniMessage tags like",
+    "  <gradient:#FF0000:#00FF00>text</gradient> and <rainbow>text</rainbow>.",
+    "Tokens - header: {objective} {count}. player/timePlayer rows: {rank} {player} {score} {time}.",
+    "'timePlayer' is used for time-based objectives (playtime etc.); if omitted, 'player' is used.",
+    "'defaultTheme' is applied when a board is created without naming a theme.",
+    "Edit these or add your own entries under 'themes'. Delete this file to restore the starters."
+  ],
+  "defaultTheme": "default",
+  "themes": {
+    "default": {
+      "header": "&6&l{objective} &8- &7Top {count}",
+      "player": "&e{rank}. &f{player} &7- &a{score}",
+      "timePlayer": "&e{rank}. &f{player} &7- &a{time}",
+      "empty": "&7No data available"
+    },
+    "ocean": {
+      "header": "&b&l{objective} &3- Top {count}",
+      "player": "&3{rank}. &b{player} &7- &f{score}",
+      "timePlayer": "&3{rank}. &b{player} &7- &f{time}",
+      "empty": "&3No data available"
+    },
+    "blood": {
+      "header": "&4&l{objective} &c- Top {count}",
+      "player": "&c{rank}. &7{player} &8- &6{score}",
+      "timePlayer": "&c{rank}. &7{player} &8- &6{time}",
+      "empty": "&8No data yet"
+    },
+    "mono": {
+      "header": "&f&l{objective} &8- Top {count}",
+      "player": "&8{rank}. &f{player} &7- &f{score}",
+      "timePlayer": "&8{rank}. &f{player} &7- &f{time}",
+      "empty": "&8No data"
+    },
+    "gold": {
+      "header": "&6&l{objective} &e- Top {count}",
+      "player": "&e{rank}. &f{player} &7- &6{score}",
+      "timePlayer": "&e{rank}. &f{player} &7- &6{time}",
+      "empty": "&7No data"
+    },
+    "rainbow": {
+      "header": "<rainbow><bold>{objective} - Top {count}</bold></rainbow>",
+      "player": "<gradient:#FFD700:#FF8C00>{rank}.</gradient> &f{player} &7- &a{score}",
+      "timePlayer": "<gradient:#FFD700:#FF8C00>{rank}.</gradient> &f{player} &7- &a{time}",
+      "empty": "&7No data available"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"essential": {
+		"msg": "The Essential mod(<strong>$JAR_NAME$</strong>) is completely incompatible with all of our modpacks, and there's no reason to use it.\nAll of our modpacks already come with built-in, free world hosting, by clicking the <strong>Share World</strong> button in the <strong>Open to LAN</strong> menu. If you are ever playing a modpack not made by Lunapixel, you can use mods such as e4mc or World Host to host your world instead of Essential, as Essential has many issues.",
+		"should_crash_on_startup": true
+	},
+	"essential-container": {
+		"should_crash_on_startup": true,
+		"msg": "The Essential mod(<strong>$JAR_NAME$</strong>) is completely incompatible with all of our modpacks, and there's no reason to use it.\nAll of our modpacks already come with built-in, free world hosting, by clicking the <strong>Share World</strong> button in the <strong>Open to LAN</strong> menu. If you are ever playing a modpack not made by Lunapixel, you can use mods such as e4mc or World Host to host your world instead of Essential, as Essential has many issues."
+	},
+	"e4mc_minecraft": {
+		"should_crash_on_startup": true,
+		"msg": "e4mc is not needed, as all of our modpacks already has our custom fork of the e4mc mod included. If you are having issues with our own world sharing, hosting a server on your own PC via the serverpack is easy. You can learn more here: https://github.com/chorbintime/LPS-readme/wiki"
+	},
+	"tlskincape": {
+		"should_crash_on_startup": true,
+		"msg": "It appears that you are using TLauncher, a launcher known to be infected with spyware that can steal your passwords and monitor your computer activity. TLauncher also does not install modpacks correctly, which results in many missing files that will potentially break the modpack. It is heavily encouraged to delete all traces of TLauncher off of your computer, do an antivirus scan, and buy Minecraft so you can use a better launcher, such as https://atlauncher.com/downloads."
+	}
+}

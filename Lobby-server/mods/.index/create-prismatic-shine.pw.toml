@@ -1,0 +1,18 @@
+filename = 'createprism-1.2.2.jar'
+name = 'Create: Prismatic Shine'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create Prismatic Shine 1.2.2 Neoforge 1.21.1'
+
+[download]
+hash = '2c911b9b9abaac0572f0935ccfc9ae91c02eb4c7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8050591
+project-id = 1355767

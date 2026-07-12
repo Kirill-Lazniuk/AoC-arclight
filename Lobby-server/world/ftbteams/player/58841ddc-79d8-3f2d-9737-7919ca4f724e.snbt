@@ -1,0 +1,19 @@
+{
+	id: "58841ddc-79d8-3f2d-9737-7919ca4f724e"
+	type: "player"
+	player_name: "00_KriStA_00"
+	ranks: {
+		58841ddc-79d8-3f2d-9737-7919ca4f724e: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "00_KriStA_00"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF8459"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

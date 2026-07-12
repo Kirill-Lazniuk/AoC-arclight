@@ -1,0 +1,19 @@
+{
+	id: "73b30112-0334-11ec-a6cb-d45d64bce613"
+	type: "player"
+	player_name: "ersti"
+	ranks: {
+		73b30112-0334-11ec-a6cb-d45d64bce613: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "ersti"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59C0FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

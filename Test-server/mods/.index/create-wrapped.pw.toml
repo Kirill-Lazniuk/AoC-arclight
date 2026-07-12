@@ -1,0 +1,25 @@
+filename = 'create_wrapped-1.0.3-neoforge-1.21.1.jar'
+name = 'Create: Wrapped'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_wrapped-1.0.3-neoforge-1.21.1.jar'
+
+[download]
+hash = '5c2a8d32c7b20bc596ac9339bc529d2688f86c57'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7552615
+project-id = 1394354
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

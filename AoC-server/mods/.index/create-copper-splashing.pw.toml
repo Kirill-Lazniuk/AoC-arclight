@@ -1,0 +1,18 @@
+filename = 'coppersplashing_1.21.1_v1.jar'
+name = 'Create: Copper Splashing'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'coppersplashing_1.21.1_v1.jar'
+
+[download]
+hash = '9ae3b727c676859fcee0d5fb5f72e75673b5fa6a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7370476
+project-id = 1266798

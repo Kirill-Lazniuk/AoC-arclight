@@ -1,0 +1,30 @@
+name = "donate"
+perm = "default"
+rows = 3
+title = "&6&lМагазин привилегий"
+empty = "GRAY_STAINED_GLASS_PANE"
+sound = "ENTITY_EXPERIENCE_ORB_PICKUP"
+# Команды для вызова меню
+commands = ["donate"]
+
+[items]
+# Кнопка для Красного градиентного префикса
+[items.10]
+material = "REDSTONE"
+name = "&c&lКрасный БОГ"
+lore = ["&7Нажми, чтобы установить префикс"]
+commands = ["vsudo /btab player %username% tabprefix '{#FF0000}&lП{#FF4500}&lИ{#FF8C00}&lД{#FFA500}&lО{#FFD700}&lР{#FFFF00}&lА{#FF4500}&lС &r'"]
+
+# Кнопка для Синего градиентного префикса
+[items.11]
+material = "DIAMOND"
+name = "&b&lСиний БОГ"
+lore = ["&7Нажми, чтобы установить префикс"]
+commands = ["vsudo /btab player %username% tabprefix '{#00008B}&lП{#0020A0}&lИ{#0040B5}&lД{#0060CA}&lО{#0080DF}&lР{#00A0F4}&lА{#00C0FF}&lС &r'"]
+
+# Кнопка для сброса префикса (возврат к дефолту)
+[items.13]
+material = "BARRIER"
+name = "&c&lСбросить префикс"
+lore = ["&7Вернуть стандартный вид"]
+commands = ["vsudo /time set day"]

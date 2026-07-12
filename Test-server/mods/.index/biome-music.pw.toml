@@ -1,0 +1,21 @@
+filename = 'biomemusic-1.21-3.5.jar'
+name = 'Biome Music[Forge/Fabric]'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'biomemusic-1.21-3.5.jar'
+
+[download]
+hash = 'f5868f1fb5b1172e0464b7206ddad6e5cc481582'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6457331
+project-id = 840873
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

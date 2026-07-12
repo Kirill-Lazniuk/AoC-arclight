@@ -1,0 +1,27 @@
+{
+	version: 1
+	uuid: "ceed39fef8ba36a2be5beb4a1c63722e"
+	name: "Clarerta#ceed39fe"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		710B63E44A6AD4F5: 1L
+		7CE1A7066A6E7586: 1L
+	}
+	started: {
+		710B63E44A6AD4F5: 1780705180994L
+		0000000000000001: 1780705180994L
+		2BB2E74D60FA2FE2: 1780705180994L
+		50A7D24C926B5337: 1780705180994L
+		26F644CDF57A2C93: 1780705181000L
+		7CE1A7066A6E7586: 1780705181000L
+	}
+	completed: {
+		710B63E44A6AD4F5: 1780705180998L
+		7CE1A7066A6E7586: 1780705181000L
+	}
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

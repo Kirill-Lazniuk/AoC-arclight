@@ -1,0 +1,29 @@
+filename = 'create_mob_spawners-1.0.0.jar'
+name = 'Create: Mob Spawners'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Mob Spawners 1.0.0'
+
+[download]
+hash = '43f6627a7670c0053f76127eac51d0ff2985ce9e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7342352
+project-id = 1175578
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '324717'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'

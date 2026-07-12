@@ -1,0 +1,27 @@
+name = "menu"
+perm = "default"
+rows = 1
+title = "&6Выбор сервера"
+empty = "GRAY_STAINED_GLASS_PANE"
+sound = "ENTITY_EXPERIENCE_ORB_PICKUP"
+# Команды для вызова меню
+commands = ["menu"]
+
+[items]
+[items.2]
+material = "OAK_LOG"
+name = "&aНа основной!"
+commands = ["server= main"]
+
+[items.4]
+material = "GRASS_BLOCK"
+name = "&aВ тестовый!"
+commands = ["server= test"]
+
+[items.6]
+material = "STRIPPED_OAK_LOG"
+name = "&aВ лобби!"
+commands = ["server= lobby"]
+
+
+

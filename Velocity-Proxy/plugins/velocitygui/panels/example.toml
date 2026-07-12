@@ -1,0 +1,26 @@
+name = "menu"
+perm = "default"
+rows = 1
+title = "&6Выбор сервера"
+empty = "GRAY_STAINED_GLASS_PANE"
+sound = "ENTITY_EXPERIENCE_ORB_PICKUP"
+commands = ["menu"]
+
+[items]
+# Кнопка для AoC (в 3-й слот)
+[items.3]
+material = "DIAMOND_SWORD"
+stack = 1
+name = "&bНа тест (AoC)"
+lore = ["&7Перейти на Aeronautics"]
+enchanted = true
+commands = ["server aoc"]
+
+# Кнопка для Лобби (в 5-й слот)
+[items.5]
+material = "GRASS_BLOCK"
+stack = 1
+name = "&aВ лобби"
+lore = ["&7Вернуться на главный сервер"]
+enchanted = false
+commands = ["server lobby"]

@@ -1,0 +1,25 @@
+filename = 'corpse-neoforge-1.21.1-1.1.13.jar'
+name = 'Corpse'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[NEOFORGE][1.21.1] Corpse 1.21.1-1.1.13'
+
+[download]
+hash = '4f42091ef36e98e99c2f28a273ded960c0ac08bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7018307
+project-id = 316582
+
+[[x-prismlauncher-dependencies]]
+addonId = '324717'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1108475'
+type = 'OPTIONAL'

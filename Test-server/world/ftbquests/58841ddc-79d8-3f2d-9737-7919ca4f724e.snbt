@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "58841ddc79d83f2d97377919ca4f724e"
+	name: "00_KriStA_00#58841ddc"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

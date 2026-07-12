@@ -1,0 +1,65 @@
+filename = 'createmetalwork-2.0.0.jar'
+name = 'Create: Metalwork'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createmetalwork-2.0.0.jar'
+
+[download]
+hash = 'e53cb0ce472f6eabc299c7545df5259bdb136de0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7287996
+project-id = 966104
+
+[[x-prismlauncher-dependencies]]
+addonId = '624165'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '864781'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '430642'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '413596'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '311377'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1056743'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '646668'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '631098'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '769203'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '635042'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '391708'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '410127'
+type = 'OPTIONAL'

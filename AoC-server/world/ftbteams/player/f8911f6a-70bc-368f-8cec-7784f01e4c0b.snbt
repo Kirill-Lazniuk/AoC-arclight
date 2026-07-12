@@ -1,0 +1,19 @@
+{
+	id: "f8911f6a-70bc-368f-8cec-7784f01e4c0b"
+	type: "player"
+	player_name: "Felix454"
+	ranks: {
+		f8911f6a-70bc-368f-8cec-7784f01e4c0b: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Felix454"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFEB59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,21 @@
+filename = 'serverbrowser-neoforge-1.4.2-1.21.1.jar'
+name = 'Server Browser - In Game Server Listings'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'serverbrowser-neoforge-1.4.2-1.21.1.jar'
+
+[download]
+hash = '5c0eef58fa4cbd0574eb09eee37ce7969bf86cd0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6928401
+project-id = 825617
+
+[[x-prismlauncher-dependencies]]
+addonId = '885449'
+type = 'REQUIRED'

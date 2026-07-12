@@ -1,0 +1,19 @@
+{
+	id: "f86c1832-94de-30d3-bfb7-717f26b0d02c"
+	type: "player"
+	player_name: "ersti"
+	ranks: {
+		f86c1832-94de-30d3-bfb7-717f26b0d02c: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "ersti"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59F5FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

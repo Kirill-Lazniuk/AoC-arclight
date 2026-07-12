@@ -1,0 +1,18 @@
+filename = 'bwncr-neoforge-1.21.1-3.20.4.jar'
+name = 'Bad Wither No Cookie - Reloaded'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bwncr-neoforge-1.21.1-3.20.4.jar'
+
+[download]
+hash = 'dd7920e114fbd066986ea1028aa201a5e0742875'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8135209
+project-id = 261251

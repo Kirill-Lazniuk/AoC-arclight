@@ -1,0 +1,102 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&d-&3--------------'
+    - '&3-&d-&3-------------'
+    - '&3--&d-&3------------'
+    - '&3---&d-&3-----------'
+    - '&3----&d-&3----------'
+    - '&3-----&d-&3---------'
+    - '&3------&d-&3--------'
+    - '&3-------&d-&3-------'
+    - '&3--------&d-&3------'
+    - '&3---------&d-&3-----'
+    - '&3----------&d-&3----'
+    - '&3-----------&d-&3---'
+    - '&3------------&d-&3--'
+    - '&3-------------&d-&3-'
+    - '&3--------------&d-'
+    - '&3-------------&d-&3-'
+    - '&3------------&d-&3--'
+    - '&3-----------&d-&3---'
+    - '&3----------&d-&3----'
+    - '&3---------&d-&3-----'
+    - '&3--------&d-&3------'
+    - '&3-------&d-&3-------'
+    - '&3------&d-&3--------'
+    - '&3-----&d-&3---------'
+    - '&3----&d-&3----------'
+    - '&3---&d-&3-----------'
+    - '&3--&d-&3------------'
+    - '&3-&d-&3-------------'
+    - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&epornhub.net'
+  - '&epornhub.net'
+  - '&epornhub.net'
+  - '&epornhub.net'
+  - '&epornhub.net'
+  - '&epornhub.net'
+  - '&6p&eornhub.net'
+  - '&ep&6o&ernhub.net'
+  - '&epo&6r&enhub.net'
+  - '&epor&6n&ehub.net'
+  - '&eporn&6h&eub.net'
+  - '&epornh&6u&eb.net'
+  - '&epornhu&6b&e.net'
+  - '&epornhub&6.&enet'
+  - '&epornhub.&6n&eet'
+  - '&epornhub.n&6e&et'
+  - '&epornhub.ne&6t'
+  - '&epornhub.net'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Время &b%time%'
+    - '&7Дата &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

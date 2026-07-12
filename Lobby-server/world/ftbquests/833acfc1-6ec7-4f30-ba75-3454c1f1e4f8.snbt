@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "833acfc16ec74f30ba753454c1f1e4f8"
+	name: "Clarerta#833acfc1"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

@@ -1,0 +1,29 @@
+filename = 'create_chocolate_fountain-1.21.1-1.1.0.jar'
+name = 'Create: Chocolate Fountain'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create Chocolate Fountain 1.21.1-1.1.0'
+
+[download]
+hash = '9b748bf4fcb8b5a3b345763c73c4f60f0b981085'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7651561
+project-id = 1232926
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '531834'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '679270'
+type = 'OPTIONAL'

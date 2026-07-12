@@ -1,0 +1,29 @@
+filename = 'backpacked-neoforge-1.21.1-3.0.5.jar'
+name = 'Backpacked'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Backpacked 3.0.5'
+
+[download]
+hash = '5c610383fc803d62825a2111e16ea01680bf25d9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7866688
+project-id = 352835
+
+[[x-prismlauncher-dependencies]]
+addonId = '457570'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '549225'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '459701'
+type = 'OPTIONAL'

@@ -1,0 +1,19 @@
+{
+	id: "833acfc1-6ec7-4f30-ba75-3454c1f1e4f8"
+	type: "player"
+	player_name: "Clarerta"
+	ranks: {
+		833acfc1-6ec7-4f30-ba75-3454c1f1e4f8: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Clarerta"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFBB"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

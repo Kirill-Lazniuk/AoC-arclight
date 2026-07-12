@@ -1,0 +1,25 @@
+filename = 'aeroworks-1.2.10.jar'
+name = 'Create: Aeroworks'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.10+mc1.21.1'
+
+[download]
+hash = 'ee64c90df668d005ad846327f438a7ffa2b675ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8167070
+project-id = 1522473
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312371'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

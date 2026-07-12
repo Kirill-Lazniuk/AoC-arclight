@@ -1,0 +1,25 @@
+filename = 'creategarnished-0.1.7.4+1.21.1-neoforged.jar'
+name = 'Create: Garnished Reworked'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Garnished Reworked 0.1.7.4 for mc1.21.1'
+
+[download]
+hash = 'dd1526bd1ac76197b15f4b0bbbabc89ab858d623'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7575506
+project-id = 1236537
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'REQUIRED'
