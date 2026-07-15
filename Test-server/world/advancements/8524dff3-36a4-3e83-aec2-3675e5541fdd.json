@@ -47207,12 +47207,6 @@
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2026-07-05 02:43:40 +0200"
-    },
-    "done": true
-  },
   "create:wrench_goggles": {
     "criteria": {
       "0": "2026-07-05 02:28:14 +0200",
@@ -47223,6 +47217,60 @@
   "aeronautics:in_thrust_we_trust": {
     "criteria": {
       "0": "2026-07-05 02:31:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-07-05 02:43:40 +0200"
+    },
+    "done": true
+  },
+  "etched:recipes/decorations/etching_table": {
+    "criteria": {
+      "has_the_recipe": "2026-07-13 16:24:04 +0200"
+    },
+    "done": true
+  },
+  "etched:recipes/decorations/album_jukebox": {
+    "criteria": {
+      "has_the_recipe": "2026-07-13 16:24:04 +0200"
+    },
+    "done": true
+  },
+  "etched:recipes/decorations/radio": {
+    "criteria": {
+      "has_the_recipe": "2026-07-13 16:24:04 +0200"
+    },
+    "done": true
+  },
+  "etched:recipes/tools/album_cover": {
+    "criteria": {
+      "has_the_recipe": "2026-07-13 16:24:04 +0200"
+    },
+    "done": true
+  },
+  "etched:recipes/transportation/jukebox_minecart": {
+    "criteria": {
+      "has_the_recipe": "2026-07-13 16:24:04 +0200"
+    },
+    "done": true
+  },
+  "etched:recipes/tools/music_label": {
+    "criteria": {
+      "has_the_recipe": "2026-07-13 16:24:04 +0200"
+    },
+    "done": true
+  },
+  "etched:recipes/tools/blank_music_disc": {
+    "criteria": {
+      "has_the_recipe": "2026-07-13 16:24:04 +0200"
+    },
+    "done": true
+  },
+  "etched:recipes/tools/boombox": {
+    "criteria": {
+      "has_the_recipe": "2026-07-13 16:24:04 +0200"
     },
     "done": true
   },

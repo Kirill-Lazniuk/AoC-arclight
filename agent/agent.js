@@ -2,6 +2,15 @@
 // Сам инициирует соединение наружу к панели на хостинге, поэтому НЕ требует
 // проброса портов или белого IP. Node.js 18+
 
+// dotenv нужен, чтобы агент мог прочитать .env файл с локального ПК
+// (сам агент не деплоится на хостинг, поэтому пакет тут можно просто установить,
+// но на всякий случай тоже оборачиваем в try/catch)
+try {
+  require('dotenv').config();
+} catch (e) {
+  // dotenv не установлен — тогда переменные нужно будет задавать вручную перед запуском
+}
+
 const WebSocket = require('ws');
 const { spawn, exec } = require('child_process');
 const path = require('path');
@@ -10,8 +19,13 @@ const fs = require('fs');
 // ====================== НАСТРОЙКИ ======================
 // PANEL_WS_URL — адрес твоей панели на хостинге, протокол wss:// (не https://)
 // AGENT_TOKEN  — должен СОВПАДАТЬ с AGENT_TOKEN, который задан в переменных окружения панели
-const PANEL_WS_URL = process.env.PANEL_WS_URL || 'wss://ТВОЙ-ПРОЕКТ.onrender.com/ws-agent';
-const AGENT_TOKEN  = process.env.AGENT_TOKEN  || 'change-me-too';
+const PANEL_WS_URL = process.env.PANEL_WS_URL || 'wss://panel-koiq.onrender.com//ws-agent';
+const AGENT_TOKEN  = process.env.AGENT_TOKEN;
+
+if (!AGENT_TOKEN) {
+  console.error('❌ Не задана переменная окружения AGENT_TOKEN (проверь .env файл рядом с agent.js)');
+  process.exit(1);
+}
 
 // Порядок в этом объекте = порядок запуска в "Запустить всё"
 const SERVERS = {

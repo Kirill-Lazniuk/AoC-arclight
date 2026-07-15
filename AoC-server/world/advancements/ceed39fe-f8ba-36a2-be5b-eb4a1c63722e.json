@@ -43101,9 +43101,11 @@
     "criteria": {
       "minecraft:cold_ocean": "2026-06-05 19:58:15 +0200",
       "minecraft:snowy_slopes": "2026-06-05 19:51:33 +0200",
+      "minecraft:old_growth_pine_taiga": "2026-07-14 03:19:54 +0200",
       "minecraft:mushroom_fields": "2026-07-07 23:23:10 +0200",
       "minecraft:forest": "2026-06-05 19:36:30 +0200",
       "minecraft:taiga": "2026-06-05 19:46:27 +0200",
+      "minecraft:deep_ocean": "2026-07-14 03:19:58 +0200",
       "minecraft:lush_caves": "2026-07-02 22:40:30 +0200",
       "minecraft:deep_cold_ocean": "2026-07-07 23:15:19 +0200",
       "minecraft:ice_spikes": "2026-06-05 19:44:14 +0200",
@@ -43374,23 +43376,26 @@
       "minecraft:pillager": "2026-07-07 23:16:07 +0200",
       "minecraft:skeleton": "2026-06-05 17:59:38 +0200",
       "minecraft:zoglin": "2026-06-05 19:35:07 +0200",
+      "minecraft:ghast": "2026-06-05 17:58:40 +0200",
+      "minecraft:hoglin": "2026-06-05 18:00:42 +0200",
+      "minecraft:magma_cube": "2026-07-12 23:18:16 +0200",
+      "minecraft:piglin_brute": "2026-06-05 18:02:45 +0200",
+      "minecraft:spider": "2026-06-05 19:41:41 +0200",
+      "minecraft:creeper": "2026-06-05 21:41:22 +0200",
+      "minecraft:wither": "2026-07-07 16:27:55 +0200",
       "minecraft:phantom": "2026-07-02 22:15:04 +0200",
+      "minecraft:zombified_piglin": "2026-07-12 23:03:33 +0200",
       "minecraft:witch": "2026-07-02 23:04:31 +0200",
       "minecraft:wither_skeleton": "2026-06-05 17:56:53 +0200",
       "minecraft:husk": "2026-07-03 00:01:01 +0200",
-      "minecraft:ghast": "2026-06-05 17:58:40 +0200",
       "minecraft:ender_dragon": "2026-06-05 20:50:14 +0200",
-      "minecraft:hoglin": "2026-06-05 18:00:42 +0200",
       "minecraft:shulker": "2026-06-05 21:25:44 +0200",
+      "minecraft:cave_spider": "2026-07-14 03:30:53 +0200",
       "minecraft:piglin": "2026-06-05 17:59:30 +0200",
       "minecraft:enderman": "2026-06-05 18:38:16 +0200",
       "minecraft:silverfish": "2026-06-05 20:09:56 +0200",
-      "minecraft:piglin_brute": "2026-06-05 18:02:45 +0200",
-      "minecraft:spider": "2026-06-05 19:41:41 +0200",
       "minecraft:zombie": "2026-06-05 20:00:38 +0200",
-      "minecraft:creeper": "2026-06-05 21:41:22 +0200",
       "minecraft:drowned": "2026-07-08 10:50:01 +0200",
-      "minecraft:wither": "2026-07-07 16:27:55 +0200",
       "minecraft:zombie_villager": "2026-07-11 19:17:47 +0200"
     },
     "done": false
@@ -44028,6 +44033,7 @@
     "criteria": {
       "minecraft:persian": "2026-07-03 00:06:09 +0200",
       "minecraft:black": "2026-07-03 00:04:03 +0200",
+      "minecraft:all_black": "2026-07-14 20:38:26 +0200",
       "minecraft:red": "2026-07-03 00:04:53 +0200"
     },
     "done": false
@@ -48235,6 +48241,150 @@
   "create:packager": {
     "criteria": {
       "0": "2026-07-12 00:50:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2026-07-12 21:46:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2026-07-12 21:48:19 +0200"
+    },
+    "done": true
+  },
+  "create_dragons_plus:recipes/fluid_hatch": {
+    "criteria": {
+      "has_item_drain": "2026-07-13 01:22:35 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2026-07-13 13:00:16 +0200"
+    },
+    "done": true
+  },
+  "create:saw_processing": {
+    "criteria": {
+      "0": "2026-07-13 15:02:13 +0200"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2026-07-13 15:07:28 +0200"
+    },
+    "done": true
+  },
+  "create:cart_pickup": {
+    "criteria": {
+      "0": "2026-07-13 15:57:13 +0200"
+    },
+    "done": true
+  },
+  "create:self_deploying": {
+    "criteria": {
+      "0": "2026-07-13 18:31:26 +0200"
+    },
+    "done": true
+  },
+  "create:cardboard": {
+    "criteria": {
+      "0": "2026-07-14 00:19:16 +0200"
+    },
+    "done": true
+  },
+  "creategarnished:plains/obtain_mint_bushes": {
+    "criteria": {
+      "0": "2026-07-14 00:29:03 +0200"
+    },
+    "done": false
+  },
+  "creategarnished:plains/obtain_chestnuts": {
+    "criteria": {
+      "0": "2026-07-14 00:42:10 +0200"
+    },
+    "done": true
+  },
+  "createnuclear:raw_uranium": {
+    "criteria": {
+      "0": "2026-07-14 01:15:44 +0200"
+    },
+    "done": true
+  },
+  "idas:labyrinth": {
+    "criteria": {
+      "in_labyrinth": "2026-07-14 03:30:46 +0200"
+    },
+    "done": true
+  },
+  "create:frogport": {
+    "criteria": {
+      "0": "2026-07-14 17:37:11 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/acacia": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/spruce": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/cherry": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/warped": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/crimson": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/dark_oak": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/jungle": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/mangrove": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/birch": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/way_sign_oak/minecraft/bamboo": {
+    "criteria": {
+      "has_item_minecraft_oak_sign_1": "2026-07-14 22:06:22 +0200"
     },
     "done": true
   },

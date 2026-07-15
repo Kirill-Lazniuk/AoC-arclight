@@ -47261,5 +47261,11 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_carrot": "2026-07-14 00:07:43 +0200"
+    },
+    "done": false
+  },
   "DataVersion": 3955
 }
